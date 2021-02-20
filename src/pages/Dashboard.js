@@ -8,13 +8,21 @@ function Dashboard() {
 						<Sidebar/>
 						<div className="container">
 							<div className="row">
-								<div className="col-md-4">
-									<h1>DashBoard</h1>
+								<div className="col-md-12">
+									<h1 className="text-center user-profile">DashBoard</h1>
 								</div>
-							</div>
+								<div className="col-sm-6 text-center">
+									<label className="label label-success">Area Chart</label>
+									<div id="area-chart" ></div>
+								</div>
+								<div className="col-sm-6 text-center">
+									<label className="label label-success">Line Chart</label>
+									<div id="line-chart"></div>
+								</div>
 						</div>
 					</div>
         </div>
+				</div>
     )
 }
 
